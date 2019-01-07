@@ -1,0 +1,4 @@
+# We don't need consul when developing
+spring.cloud.consul.enabled: false
+server:
+  port: 8082
