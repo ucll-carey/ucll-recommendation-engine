@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.StreamSupport;
 
-
+@CrossOrigin(origins = "*")
 @RestController
 public class RecommendationController {
 
